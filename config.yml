@@ -1,5 +1,5 @@
 paths:
-  path_to_speakers_folder: "/home/digitalhub/Desktop/data/nsc/audio"
+  path_to_speakers_folder: "/home/digitalhub/Desktop/data/NSC_part3"
   path_to_noise_file: "noise/nsc-noise.wav"
   path_to_output_folder: "outputs"
 
@@ -7,8 +7,8 @@ params:
   random_seed: 42
   chosen_speakers:
     [
-      "SPEAKER0970",
-      "SPEAKER1015",
+      "SPEAKER00862859",
+      "SPEAKER00862862",
     ]
   sample_rate: 16000
   desired_duration_sec: 60

@@ -44,7 +44,7 @@ def get_filenames_for_speakers(
     audio_filepath_dict = {}
     for speaker in chosen_speakers:
         
-        path_to_audio = os.path.join(path_to_speakers_folder, speaker+'/SESSION0')
+        path_to_audio = os.path.join(path_to_speakers_folder, speaker)
         audio_filepath_dict[speaker] = []
         
         audio_filenames = get_all_files_in_directory(path_to_audio)
