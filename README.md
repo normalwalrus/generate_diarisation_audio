@@ -73,3 +73,10 @@ Your speaker dataset should look something like this
 
 This can be any noise you want to add inbetween any 2 segments of speech
 
+## Running Generation
+
+```bash
+python3 generate.py
+```
+
+In the virtual environment
