@@ -1,0 +1,22 @@
+paths:
+  path_to_speakers_folder: "/home/digitalhub/Desktop/data/nsc/audio"
+  path_to_noise_file: "noise/nsc-noise.wav"
+  path_to_output_folder: "outputs"
+
+params:
+  random_seed: 42
+  chosen_speakers:
+    [
+      "SPEAKER0970",
+      "SPEAKER1015",
+    ]
+  sample_rate: 16000
+  desired_duration_sec: 60
+  min_duration_to_consider_audio_sec: 3
+  speaker_max_repeat: 5
+  speaker_min_repeat: 2
+  min_silence_duration_diff_speakers_sec: 0
+  max_silence_duration_diff_speakers_sec: 0.8
+  min_silence_duration_same_speakers_sec: 0
+  max_silence_duration_same_speakers_sec: 0.2
+  max_gap_to_merge_same_speaker_sec: 0.5
