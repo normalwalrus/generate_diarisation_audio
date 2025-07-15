@@ -68,6 +68,9 @@ Your speaker dataset should look something like this
         ├── audio2.wav
         └── ...
 ```
+NOTES:
+- An Example dataset that was used is "National Speech Corpus part 3"
+- Each audio.wav file should be a vad seperated utterance of the desired speaker
 
 ### Noise
 
