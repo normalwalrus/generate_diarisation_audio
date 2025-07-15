@@ -29,7 +29,8 @@ def export_audio(y, sr, output_filepath):
 def get_noise_snippet(noise_wav, 
                       sample_rate = 16000, 
                       desired_duration = 0.4,
-                      chunk_duration = 0.1):
+                      chunk_duration = 0.1,
+                      amplification = 0.5 ):
     '''
     Sample noise from wav and returns the specified duration of sitched together noise
     '''
@@ -49,7 +50,7 @@ def get_noise_snippet(noise_wav,
             chunk = noise_wav[start:start + chunk_size]
             chunks.append(chunk)
             
-        return np.concatenate(chunks)
+        return np.concatenate(chunks) * amplification
 
     else:
         

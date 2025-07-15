@@ -115,7 +115,8 @@ def generate_diar_dataset(
                 noise_wav=noise_wav,
                 sample_rate=SAMPLE_RATE,
                 desired_duration=duration_silence,
-                chunk_duration=0.1
+                chunk_duration=duration_silence/2,
+                amplification= 0.4
                 )
             final_wav = np.concatenate((final_wav, silence_array))
             

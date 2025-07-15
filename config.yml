@@ -7,11 +7,17 @@ params:
   random_seed: 42
   chosen_speakers:
     [
-      "SPEAKER00862859",
+      "SPEAKER00862871",
+      "SPEAKER00862873",
+      "SPEAKER00862880",
       "SPEAKER00862862",
+      "SPEAKER00862868",
+      "SPEAKER00862870",
+      "SPEAKER00862882",
+      "SPEAKER00862859"
     ]
   sample_rate: 16000
-  desired_duration_sec: 60
+  desired_duration_sec: 1200
   min_duration_to_consider_audio_sec: 3
   speaker_max_repeat: 5
   speaker_min_repeat: 2
